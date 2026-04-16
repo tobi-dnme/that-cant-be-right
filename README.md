@@ -19,6 +19,7 @@ Each question presents multiple options where most are correct... except for one
 It’s a small twist that creates an engaging and maybe confusing experience (at least, that's the idea).
 
 
+
 ## How It Works
 
 1. You begin on an introductory page.
@@ -36,6 +37,7 @@ It’s a small twist that creates an engaging and maybe confusing experience (at
    * A witty comment reflects your performance
 
 
+
 ## Features
 
 * **Randomized Questions**
@@ -51,6 +53,7 @@ It’s a small twist that creates an engaging and maybe confusing experience (at
   Includes a humorous performance evaluation.
 
 
+
 ## Built With
 
 * **HTML** – Structure and layout
@@ -58,10 +61,12 @@ It’s a small twist that creates an engaging and maybe confusing experience (at
 * **JavaScript** – Logic, randomness, and state management
 
 
+
 ## Getting Started
 
 1. Click **Start Quiz**
 2. Try not to overthink it, or actually...maybe you should.
+
 
 
 ## Example
@@ -77,6 +82,7 @@ Correct instinct: Marseille, Paris, Toulouse
 But in this quiz…
 
 **You should choose: Turin**
+
 
 
 ## Why This Exists
