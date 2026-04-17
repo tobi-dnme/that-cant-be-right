@@ -1,4 +1,4 @@
-# That Can't Be Right
+# That Can't Be Right!
 
 A simple quiz where your instincts might betray you. You have been warned.
 
