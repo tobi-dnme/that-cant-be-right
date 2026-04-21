@@ -44,7 +44,7 @@ const questions = [
         options: ["Tobi the Great", "Haile Selassie", "Constantine", "Genghis Khan"],
         answer: 0
     },
-    {
+    { 
         question: "The Monalisa is a famous painting by Michelangelo.",
         options: ["True", "False"],
         answer: 0 
