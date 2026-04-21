@@ -3,11 +3,19 @@
 }
 
 button {
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid red;
-    border-radius: 5px;
+    background: linear-gradient(135deg, #e63946 0%, #b91c1c 100%);
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
 }
+
+button:hover {
+    box-shadow: 0 6px 20px grey;
+}
+
 
 footer {
   position: fixed;
