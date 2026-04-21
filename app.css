@@ -1,31 +1,40 @@
+body {
+  font-family: "Century Gothic",  Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #b91c1c;
+}
+
 .hidden {
-    display: none;
+  display: none;
 }
 
 button {
-    background: linear-gradient(135deg, #e63946 0%, #b91c1c 100%);
-    color: white;
-    padding: 10px 30px;
-    border: 1px solid black;
-    border-radius: 10px;
-    font-weight: 600;
-    cursor: pointer;
+  background: linear-gradient(135deg, #e63946 0%, #b91c1c 100%);
+  color: white;
+  padding: 10px 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 button:hover {
-    box-shadow: 0 6px 20px grey;
+  box-shadow: 0 6px 20px grey;
 }
 
 
 footer {
   position: fixed;
-  left: 0;
   bottom: 0;
   width: 100%;
 }
 
 .warning {
-    color: red;
-    font-weight: bold;
+  color: red;
+  font-weight: bold;
 }
 
