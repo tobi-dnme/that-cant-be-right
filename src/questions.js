@@ -2,7 +2,7 @@ const questions = [
     {
         question: "Which of these DC Comics characters have donned the mantle of Batman's sidekick, Robin?",
         options: ["Jason Todd", "Tobi Olu", "Dick Grayson", "Damian Wayne"],
-        answer: 2
+        answer: 1
     },
     {
         question: "Wayne Rooney is a football legend best known for his time at Manchester City.",
