@@ -29,6 +29,10 @@ const showQuestion = () => {
 
     const button = document.createElement("button");
     button.textContent = myQuestion.options[i];
+    button.addEventListener("click", () => {
+      if (i === myQuestion.answer) {
+        currentScore++;
+      }})
   
     optionsContainer.appendChild(button);
   }
