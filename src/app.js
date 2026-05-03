@@ -29,11 +29,21 @@ const showQuestion = () => {
 
     const button = document.createElement("button");
     button.textContent = myQuestion.options[i];
-    button.addEventListener("click", () => {
-      if (i === myQuestion.answer) {
-        currentScore++;
-      }})
+    button.onclick = () => {checkAnswer(i)};
   
     optionsContainer.appendChild(button);
   }
 }
+
+const checkAnswer = (index) => {
+  const myQuestion = questions[currentQuestionIndex];
+
+  if (index === myQuestion.answer) {
+    currentScore++;
+    document.getElementById("feedback").textContent = "You're WRONG, but you got the right answer!";
+  } else {
+    document.getElementById("feedback").textContent = "You're RIGHT, but you got the wrong answer!";
+  }
+
+  document.getElementById("next-btn").classList.remove("hidden");
+};
