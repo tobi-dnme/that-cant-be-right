@@ -58,7 +58,6 @@ export const nextQuestion = () => {
   } else {
     showQuestion();
   }
-
 };
 
   const showResults = () => {
