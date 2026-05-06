@@ -61,8 +61,8 @@ export const nextQuestion = () => {
 };
 
   const showResults = () => {
-  document.getElementById("quiz-screen").classList.add("hidden");
-  document.getElementById("result-screen").classList.remove("hidden");
+  document.getElementById("quiz").classList.add("hidden");
+  document.getElementById("results").classList.remove("hidden");
 
   document.getElementById("score").textContent = (currentScore * 10) + "%";
 
@@ -76,6 +76,5 @@ export const nextQuestion = () => {
     comment = "Better luck next time.";
   }
   
-
   document.getElementById("comment").textContent = comment;
 };
