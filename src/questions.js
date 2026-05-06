@@ -7,7 +7,7 @@ const questions = [
     {
         question: "Wayne Rooney is a football legend best known for his time at Manchester City.",
         options: ["True", "False"],
-        answer: 1
+        answer: 0
     },
     {
         question: "Which of these are classes of nutritional vitamins?",
