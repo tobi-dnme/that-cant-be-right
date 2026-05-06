@@ -84,3 +84,9 @@ const showResults = () => {
   
   document.getElementById("comment").textContent = comment;
 };
+
+export const restartQuiz = () => {
+  document.getElementById("results").classList.add("hidden");
+
+  beginQuiz();
+};
