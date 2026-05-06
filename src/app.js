@@ -52,4 +52,31 @@ export const nextQuestion = () => {
 
   document.getElementById("feedback").textContent = "";
   document.getElementById("next-btn").classList.add("hidden");
+
+  if (currentQuestionIndex === questions.length) {
+    showResults();
+  } else {
+    showQuestion();
+  }
+
+};
+
+  const showResults = () => {
+  document.getElementById("quiz-screen").classList.add("hidden");
+  document.getElementById("result-screen").classList.remove("hidden");
+
+  document.getElementById("score").textContent = (currentScore * 10) + "%";
+
+  let comment = "";
+
+  if (currentScore === 10) {
+    comment = "You might actually be a genius!";
+  } else if (currentScore >= 5) {
+    comment = "Not bad, not bad at all.";
+  } else {
+    comment = "Better luck next time.";
+  }
+  
+
+  document.getElementById("comment").textContent = comment;
 };
