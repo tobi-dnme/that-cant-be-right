@@ -26,7 +26,6 @@ const showQuestion = () => {
   optionsContainer.innerHTML = "";
 
   for (let i = 0; i < myQuestion.options.length; i++) {
-
     const button = document.createElement("button");
     button.textContent = myQuestion.options[i];
     button.onclick = () => {checkAnswer(i)};
@@ -40,10 +39,17 @@ const checkAnswer = (index) => {
 
   if (index === myQuestion.answer) {
     currentScore++;
-    document.getElementById("feedback").textContent = "You're WRONG, but you got the right answer!";
+    document.getElementById("feedback").textContent = "You're WRONG, but that's the right answer!";
   } else {
-    document.getElementById("feedback").textContent = "You're RIGHT, but you got the wrong answer!";
+    document.getElementById("feedback").textContent = "You're RIGHT, but that's the wrong answer!";
   }
 
   document.getElementById("next-btn").classList.remove("hidden");
+};
+
+export const nextQuestion = () => {
+  currentQuestionIndex++;
+
+  document.getElementById("feedback").textContent = "";
+  document.getElementById("next-btn").classList.add("hidden");
 };
