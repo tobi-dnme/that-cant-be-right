@@ -30,7 +30,7 @@ const showQuestion = () => {
     const button = document.createElement("button");
     button.textContent = myQuestion.options[i];
     button.classList.add("option-btn");
-    button.onclick = () => {checkAnswer(i)};
+    button.onclick = () => checkAnswer(i);
 
     optionsContainer.appendChild(button);
   }
@@ -38,6 +38,10 @@ const showQuestion = () => {
 
 const checkAnswer = (index) => {
   const myQuestion = questions[currentQuestionIndex];
+
+  document.querySelectorAll(".option-btn").forEach((btn) => {
+    btn.disabled = true;
+  });
 
   if (index === myQuestion.answer) {
     currentScore++;
