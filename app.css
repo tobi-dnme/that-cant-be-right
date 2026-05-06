@@ -4,10 +4,16 @@ body {
   padding: 20px;
   background-image: url('src/images/mountains.jpg');
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+  min-height: 100vh;      
+
 }
 
 h1 {
   color: #b91c1c;
+  font-size: 48px;
 }
 
 .hidden {
@@ -28,6 +34,25 @@ button:hover {
   box-shadow: 0 6px 20px rgb(255, 132, 132);
 }
 
+button.option-btn {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid red;
+  color: #000000;
+  background: #ffffff;
+}
+
+button.option-btn:hover {
+  background: #ffecec;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+button.option-btn:active {
+  background: #ff3333;
+}
 
 footer {
   position: fixed;

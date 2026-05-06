@@ -1,4 +1,4 @@
-import questions from "./questions";    
+import questions from "./questions.js";
 
 let currentQuestionIndex = 0;
 let currentScore = 0;
@@ -24,12 +24,14 @@ const showQuestion = () => {
 
   const optionsContainer = document.getElementById("options");
   optionsContainer.innerHTML = "";
+  optionsContainer.classList.add("options");
 
   for (let i = 0; i < myQuestion.options.length; i++) {
     const button = document.createElement("button");
     button.textContent = myQuestion.options[i];
+    button.classList.add("option-btn");
     button.onclick = () => {checkAnswer(i)};
-  
+
     optionsContainer.appendChild(button);
   }
 }
@@ -60,7 +62,7 @@ export const nextQuestion = () => {
   }
 };
 
-  const showResults = () => {
+const showResults = () => {
   document.getElementById("quiz").classList.add("hidden");
   document.getElementById("results").classList.remove("hidden");
 
