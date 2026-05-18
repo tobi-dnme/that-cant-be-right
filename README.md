@@ -47,14 +47,19 @@ It’s a small twist that creates an engaging and maybe confusing experience (at
 
 * **Instant Feedback**
   Know immediately whether you *correctly* chose the *incorrect* answer.
-  ![Feedback](./src/images/feedback.PNG 'Mobile view of Feedback')
+  <div align="center">
+  <img src='./src/images/feedback.PNG' alt='Mobile view of Feedback' width='50%'>
+  </div>
+
 
 * **Twisted Gameplay**
   Challenges the mind and keeps players on their toes.
 
 * **Final Score Summary**
   Includes a humorous performance evaluation.
-![Result](./src/images/result.PNG 'Mobile view of Result')
+  <div align="center">
+  <img src='./src/images/result.PNG' alt='Mobile view of Result' width='50%'>
+  </div>
 
 
 
