@@ -3,19 +3,20 @@ import questions from "./questions.js";
 let currentQuestionIndex = 0;
 let currentScore = 0;
 
+/*Begin Quiz(id="start-btn") Button Functionality*/
 export const beginQuiz = () => {
   document.getElementById("intro").classList.add("hidden");
   document.getElementById("quiz").classList.remove("hidden");
 
-
-  questions.sort(() => Math.random() - 0.5);
-
+  questions.sort(() => Math.random() - 0.5); /* Code copied from 'Tom Nijhof-Verhees' via 'medium.com'*/
+  
   currentQuestionIndex = 0;
   currentScore = 0;
 
   showQuestion();
 };
 
+/*Display Quiz*/
 const showQuestion = () => {
   const myQuestion = questions[currentQuestionIndex];
 
@@ -24,9 +25,8 @@ const showQuestion = () => {
 
   const optionsContainer = document.getElementById("options");
   optionsContainer.innerHTML = "";
-  optionsContainer.classList.add("options");
 
-  for (let i = 0; i < myQuestion.options.length; i++) {
+  for (let i = 0; i < myQuestion.options.length; i++) {  /* Code copied from 'Create a Math Sprint Game' via 'geeksforgeeks.org'*/
     const button = document.createElement("button");
     button.textContent = myQuestion.options[i];
     button.classList.add("option-btn");
@@ -36,6 +36,7 @@ const showQuestion = () => {
   }
 }
 
+/*Check selected answers from questions.js array* and update score*/
 const checkAnswer = (index) => {
   const myQuestion = questions[currentQuestionIndex];
 
@@ -53,6 +54,7 @@ const checkAnswer = (index) => {
   document.getElementById("next-btn").classList.remove("hidden");
 };
 
+/*Next(id="next-btn") Button Functionality*/
 export const nextQuestion = () => {
   currentQuestionIndex++;
 
@@ -66,6 +68,7 @@ export const nextQuestion = () => {
   }
 };
 
+/*Results Page*/
 const showResults = () => {
   document.getElementById("quiz").classList.add("hidden");
   document.getElementById("results").classList.remove("hidden");
@@ -85,6 +88,7 @@ const showResults = () => {
   document.getElementById("comment").textContent = comment;
 };
 
+/*Restart(id="restart-btn") Button Functionality*/
 export const restartQuiz = () => {
   document.getElementById("results").classList.add("hidden");
 
