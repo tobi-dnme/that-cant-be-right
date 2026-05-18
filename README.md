@@ -23,7 +23,7 @@ It’s a small twist that creates an engaging and maybe confusing experience (at
 ## How It Works
 
 1. You begin on an introductory page.
-![Choose Wrong!](./src/images/intro.PNG 'Desktop view of Introduction')
+![Intro](./src/images/intro.PNG 'Desktop view of Introduction')
 2. The quiz consists of **10 randomly selected questions**.
 3. Each question clearly instructs you to:
 
