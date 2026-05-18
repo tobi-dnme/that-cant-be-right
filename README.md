@@ -48,7 +48,7 @@ It’s a small twist that creates an engaging and maybe confusing experience (at
 * **Instant Feedback**
   Know immediately whether you *correctly* chose the *incorrect* answer.
   <div align="center">
-  <img src='./src/images/feedback.PNG' alt='Mobile view of Feedback' width='50%'>
+  <img src='./src/images/feedback.PNG' alt='Mobile view of Feedback' width='30%'>
   </div>
 
 
@@ -58,7 +58,7 @@ It’s a small twist that creates an engaging and maybe confusing experience (at
 * **Final Score Summary**
   Includes a humorous performance evaluation.
   <div align="center">
-  <img src='./src/images/result.PNG' alt='Mobile view of Result' width='50%'>
+  <img src='./src/images/result.PNG' alt='Mobile view of Result' width='30%'>
   </div>
 
 
