@@ -23,10 +23,12 @@ It’s a small twist that creates an engaging and maybe confusing experience (at
 ## How It Works
 
 1. You begin on an introductory page.
+![Choose Wrong!](./src/images/intro.PNG 'Desktop view of Introduction')
 2. The quiz consists of **10 randomly selected questions**.
 3. Each question clearly instructs you to:
 
    > **Choose the wrong answer**
+  ![Choose Wrong!](./src/images/choose_wrong.jpg 'Desktop view of Quiz Instruction')
 4. After selecting an option:
 
    * You'll get feedback regarding your answer,
@@ -45,12 +47,14 @@ It’s a small twist that creates an engaging and maybe confusing experience (at
 
 * **Instant Feedback**
   Know immediately whether you *correctly* chose the *incorrect* answer.
+  ![Feedback](./src/images/feedback.PNG 'Mobile view of Feedback')
 
 * **Twisted Gameplay**
   Challenges the mind and keeps players on their toes.
 
 * **Final Score Summary**
   Includes a humorous performance evaluation.
+![Result](./src/images/result.PNG 'Mobile view of Result')
 
 
 
