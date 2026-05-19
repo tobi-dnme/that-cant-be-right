@@ -82,7 +82,9 @@ It’s a small twist that creates an engaging and maybe confusing experience (at
 The heading h3 (with computed level 3) follows the heading h1 (with computed level 1), skipping 1 heading level.   
 From line 20, column 9; to line 20, column 28   
 
-  `<p class="warning">Choose the wrong answer!</p>`
+    (13)`<h1>That Can't Be Right!</h1>`  
+    ...  *No h2 elements*
+    (20)`<h3> class="warning">Choose the wrong answer!</h3>`
     
 
   
